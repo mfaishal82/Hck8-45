@@ -8,6 +8,10 @@
    </head>
 
    <body>
+      <audio controls autoplay="true" loop hidden>
+         <source src="./assets/audio.mp3" type="audio/mpeg">
+         Browsermu tidak mendukung tag audio, upgrade donk!
+      </audio>
       <div class="container">
          <div class="input-form">
             <img src="./img/.png" alt="" />
@@ -20,14 +24,21 @@
                   <script>
                      let person = prompt("Please enter your name", "");
                      if (person === null || person.length === 0) {
-                        document.getElementById("demo").innerHTML = `Hello,  Stranger! Selamat mendengarkan 🎵`;
+                        document.getElementById("demo").innerHTML = `Hello,  Stranger! Welcome 🎵`;
                      } else if (person != null) {
-                        document.getElementById("demo").innerHTML = `Hello,  ${person}! Selamat mendengarkan 🎵`;
+                        document.getElementById("demo").innerHTML = `Hello,  ${person}! Welcome 🎵`;
                      }
                   </script>
-                  <!-- logo icon music -->
+               
                   <img src="img/make_your_own_playlist__2_-removebg-preview.png" alt="logo" />
-                  <tr>
+                  <div>
+                     <div>
+                        <div class="button">
+                           <a href="./index2.html"><button id="addButton" type="button">Click to search the song</button></a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- <tr>
                      <td>
                         <input type="text" name="judul_lagu" id="judul_lagu" placeholder="Judul Lagu" autofocus class="form" />
                      </td>
@@ -80,8 +91,8 @@
                         <th colspan="3" style="text-align: center">Action</th>
                      </tr>
                      <tbody id="kontenmusik"></tbody>
-                     <!-- Cetak Here -->
-                  </table>
+                
+                  </table> -->
                </div>
             </form>
             <footer>
@@ -100,6 +111,7 @@
             <img src="./img/bubble.png" alt="" />
             <img src="./img/bubble.png" alt="" />
          </div>
+         
       </div>
       <script src="./script.js"></script>
    </body>
