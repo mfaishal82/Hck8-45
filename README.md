@@ -16,4 +16,3 @@ Fitur Tambahan :
 - Validasi untuk pengecekan form dan nama pengunjung yang masih kosong
 - Button play yang langsung membuka link pada tab atau laman baru
 - Button input dan update yang dinamis tergantung pemakaian user
-- Shuffle urutan isi lagu
