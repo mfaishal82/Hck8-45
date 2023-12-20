@@ -1,8 +1,8 @@
-# Make-your-own-playlist
+# Music-player
 
 Team #1 Hackaton8 Hacktiv8 - Theme Entertainment
 
-Tema Musik : Make your own playlist
+Tema Musik : Music Player
 
 Overview :
 - Menambahkan musik
