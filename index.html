@@ -10,19 +10,19 @@
    <body>
       <div class="container">
          <div class="input-form">
-            <img src="./images/bubble.png" alt="" />
+            <img src="./img/.png" alt="" />
             <form autocomplete="off">
                <input type="hidden" id="indexlagu" />
                <table>
                   <div style="margin: 0 50px 0 0">
-                     <h3 id="demo"></h3>
+                     <marquee><h3 id="demo"></h3></marquee>
                   </div>
                   <script>
                      let person = prompt("Please enter your name", "");
                      if (person === null || person.length === 0) {
-                        document.getElementById("demo").innerHTML = `Hello,  Stranger`;
+                        document.getElementById("demo").innerHTML = `Hello,  Stranger! Selamat mendengarkan 🎵`;
                      } else if (person != null) {
-                        document.getElementById("demo").innerHTML = `Hello,  ${person}`;
+                        document.getElementById("demo").innerHTML = `Hello,  ${person}! Selamat mendengarkan 🎵`;
                      }
                   </script>
                   <!-- logo icon music -->
@@ -65,7 +65,7 @@
                   </tr>
                </table>
                <div class="table">
-                  <input type="text" id="cari" placeholder="Masukan judul lagu / artis" class="form" onkeyup="search()" />
+                  <input type="text" id="cari" placeholder="Masukan judul lagu / artis / genre" class="form" onkeyup="search()" />
                   <select id="sort" onchange="sortingBy()" class="sort">
                      <option value="judul">Judul</option>
                      <option value="artis">Artis</option>
@@ -89,18 +89,18 @@
             </footer>
          </div>
          <div class="bubble">
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
-            <img src="./images/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
+            <img src="./img/bubble.png" alt="" />
          </div>
       </div>
-      <script src="js.js"></script>
+      <script src="./script.js"></script>
    </body>
 </html>
