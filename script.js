@@ -282,23 +282,23 @@ function shuffleArray(array) {
    return array;
 }
 
-// function cetak() {
-//    // Shuffle the data array
-//    data = shuffleArray(data);
+function cetak() {
+   // Shuffle the data array
+   data = shuffleArray(data);
 
-//    document.getElementById("kontenmusik").innerHTML = "";
-//    for (let x = 0; x < data.length; x++) {
-//       //create TR
-//       let no = `<td>${(x + 1)}</td>`;
-//       let judul = `<td>${data[x].judul}</td>`;
-//       let artis = `<td>${data[x].artis}</td>`;
-//       let genre = `<td>${data[x].genre}</td>`;
-//       let btnEdit = `<td><button class="buttonKecil" type="button" onclick="editBaris(${x})">Edit</button></td>`;
-//       let btnDelete = `<td><button class="buttonKecil" onclick="deleteBaris(${x})">Delete</button></td>`;
-//       let btnPlay = `<td><button class="buttonKecil"><a href="${data[x].link}" target="_blank">Play</a></button></td>`;
-//       document.getElementById("kontenmusik").innerHTML += `<tr>${no}${judul}${artis}${genre}${btnEdit}${btnDelete}${btnPlay}</tr>`;
-//    }
-// }
+   document.getElementById("kontenmusik").innerHTML = "";
+   for (let x = 0; x < data.length; x++) {
+      //create TR
+      let no = `<td>${(x + 1)}</td>`;
+      let judul = `<td>${data[x].judul}</td>`;
+      let artis = `<td>${data[x].artis}</td>`;
+      let genre = `<td>${data[x].genre}</td>`;
+      let btnEdit = `<td><button class="buttonKecil" type="button" onclick="editBaris(${x})">Edit</button></td>`;
+      let btnDelete = `<td><button class="buttonKecil" onclick="deleteBaris(${x})">Delete</button></td>`;
+      let btnPlay = `<td><button class="buttonKecil"><a href="${data[x].link}" target="_blank">Play</a></button></td>`;
+      document.getElementById("kontenmusik").innerHTML += `<tr>${no}${judul}${artis}${genre}${btnEdit}${btnDelete}${btnPlay}</tr>`;
+   }
+}
 
 function reset() {
    document.getElementById("judul_lagu").value = "";
