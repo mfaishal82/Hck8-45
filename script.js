@@ -90,6 +90,12 @@ let data = [
       genre: "Rap",
       link: `https://www.youtube.com/watch?v=eJO5HU_7_1w`,
    },
+   {
+      judul: "Buta Hati",
+      artis: "Naif",
+      genre: "Pop",
+      link: "https://www.youtube.com/watch?v=bttxwkGn_24",
+   },
 ];
 
 function sortingBy() {
