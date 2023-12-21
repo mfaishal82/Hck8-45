@@ -1,11 +1,26 @@
+html {
+   background: url(img/background.png) no-repeat center center fixed;
+   background-size: cover;
+   height: 100%;
+   overflow: hidden;
+}
+
 body {
    height: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
    margin: 0;
-   background-image: url(img/background.png);
+   /* background-image: url(img/background.png); */
    background-attachment: fixed;
+}
+
+.header {
+   justify-content: center;
+}
+
+.header:hover {
+   transform: scale(1.1);
 }
 
 .container {
@@ -20,6 +35,9 @@ body {
    padding-bottom: 50px;
    margin-top: 30px;
    word-wrap: break-word;
+   overflow-y: scroll;
+   height: 90vh;
+
 }
 
 .form {
