@@ -212,7 +212,7 @@ a {
    width: 100%;
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   justify-content: infinite;
    position: absolute;
    bottom: 0;
 }
@@ -277,6 +277,16 @@ a {
 }
 .bubble img:nth-child(10) {
    animation-delay: 5s;
+}
+.bubble img:nth-child(11) {
+   animation-delay: 7.5s;
+   width: 35px;
+}
+.bubble img:nth-child(12) {
+   animation-delay: 6.5s;
+}
+.bubble img:nth-child(13) {
+   animation-delay: 5.5s;
 }
 
 @keyframes social {
